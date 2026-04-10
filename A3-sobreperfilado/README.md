@@ -1,30 +1,26 @@
-# Overprofiling Analysis on Major Internet Players
+# Análisis de Sobreperfilado en Grandes Plataformas de Internet
 
+Este repositorio contiene el código fuente y las herramientas de análisis desarrolladas para el estudio del sobreperfilado (overprofiling) en servicios digitales, enmarcado en la **Actividad A3** del proyecto ANTICIPA.
 
-Code for the Overprofiling Analysis on Major Internet Players Paper. The code is divided in:
+El código se organiza en las siguientes áreas:
+- **Interfaces de la extensión:** (en `./src`) Lógica de la interfaz de usuario.
+- **Lógica de Background:** (en `./public`) Implementación del Service Worker para Manifest V3.
+- **Notebooks de Análisis:** (en `./analysis`) Scripts en R para el procesamiento y visualización de los datos obtenidos.
 
-- Extension interfaces (included in `./src`)
-- Extension Background logic (included in `./public`) Manifest V3 extension
-- Code Analysis as R notebook (included in  `./analysis`)
+## Extensión Disponible
+La extensión desarrollada y utilizada para la toma de datos está disponible de forma pública en: 
+[Chrome Web Store - Overprofiling](https://chromewebstore.google.com/detail/overprofiling/mnmnepgfknlklcegefknonnpdaafmgcb)
 
-## Extension availability 
+## Scripts Disponibles
+En el directorio raíz del proyecto, puedes ejecutar:
 
-The distributed extension is available here: 
-[Chrome Web Store](https://chromewebstore.google.com/detail/overprofiling/mnmnepgfknlklcegefknonnpdaafmgcb)
+- `./convertExtension.bat` o `./convertExtension`: Genera el despliegue de la extensión en el directorio `./dist`, lista para ser cargada en navegadores basados en Chromium.
+- `npm start`: Inicia el entorno de desarrollo para la interfaz de usuario (UI) en el directorio `src`.
 
-## Available Scripts
+## Licencia y Publicaciones
+Este código se distribuye bajo la licencia **CC BY 4.0**. Los resultados de este desarrollo forman parte del artículo científico *"Overprofiling Analysis on Major Internet Players"*.
 
-In the project directory, you can run:
+---
 
- `./convertExtension.bat` or `./convertExtension`
-
-Deploy extension in `./dist` directory, ready to be used in Chromium browsers
-
-`npm start`
-
-Development in the src directory for UI development
-
-
-## License  
-
-This code is licensed under CC BY 4.0
+**Financiación:**
+Este trabajo forma parte del proyecto **ANTICIPA (UC3M-IBIDAT)**. Proyecto financiado con cargo a los fondos del Plan de Recuperación, Transformación y Resiliencia, financiado por la Unión Europea – NextGenerationEU a través de **INCIBE** (Convenio C111.23).
