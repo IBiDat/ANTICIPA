@@ -1,14 +1,30 @@
-# A3. Sobre-perfilado de usuarios en OTTs
+# Overprofiling Analysis on Major Internet Players
 
-Análisis del exceso de recolección de atributos e intereses (sobre-perfilado) y su relación con el principio de minimización de datos del RGPD.
 
-## Descripción de la Solución
-Desarrollo de un plugin de navegador y herramientas de backend diseñadas para auditar los perfiles publicitarios y de comportamiento que las plataformas OTT asignan a los usuarios. El objetivo es detectar la inferencia de datos sensibles o innecesarios para la prestación del servicio.
+Code for the Overprofiling Analysis on Major Internet Players Paper. The code is divided in:
 
-## Contenido
-- `plugin/`: Código fuente de la extensión de navegador para auditoría de perfiles.
-- `analysis_engine/`: Motor de evaluación de relevancia de atributos.
-- `results/`: Informes sobre prácticas de sobre-perfilado detectadas.
+- Extension interfaces (included in `./src`)
+- Extension Background logic (included in `./public`) Manifest V3 extension
+- Code Analysis as R notebook (included in  `./analysis`)
 
----
-**Financiación:** Proyecto ANTICIPA (UC3M-IBIDAT). Financiado con cargo a los fondos del Plan de Recuperación, Transformación y Resiliencia, financiado por la Unión Europea – NextGenerationEU a través de INCIBE (Convenio C111.23).
+## Extension availability 
+
+The distributed extension is available here: 
+[Chrome Web Store](https://chromewebstore.google.com/detail/overprofiling/mnmnepgfknlklcegefknonnpdaafmgcb)
+
+## Available Scripts
+
+In the project directory, you can run:
+
+ `./convertExtension.bat` or `./convertExtension`
+
+Deploy extension in `./dist` directory, ready to be used in Chromium browsers
+
+`npm start`
+
+Development in the src directory for UI development
+
+
+## License  
+
+This code is licensed under CC BY 4.0
