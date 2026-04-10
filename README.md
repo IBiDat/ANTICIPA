@@ -1,7 +1,3 @@
-# ANTICIPA
-Proyecto ANTICIPA (UC3M-IBIDAT). Análisis y mitigación de riesgos de privacidad (anonimidad, unicidad, sobreperfilado y fingerprinting) en servicios OTT. Desarrollado en colaboración con INCIBE (Convenio C111.23) bajo el Plan de Recuperación, Transformación y Resiliencia, financiado por la Unión Europea – NextGenerationEU.
-
-
 # ANTICIPA: Análisis y mitigación de riesgos de seguridad y privacidad asociados a la explotación de datos personales en OTTs
 
 ![Financiado por la Unión Europea - NextGenerationEU](https://img.shields.io/badge/Financiado%20por-NextGenerationEU-blue)
