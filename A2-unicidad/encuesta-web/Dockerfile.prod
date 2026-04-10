@@ -1,0 +1,17 @@
+FROM node:20
+
+# Set working directory
+WORKDIR /usr/src/app
+
+# Copy package manifests and install production dependencies
+COPY package*.json ./
+RUN npm install --only=production
+
+# Copy application source
+COPY . .
+
+# Expose the application's port
+EXPOSE 4000
+
+# Start the server in production mode
+CMD ["node", "server.js"]

@@ -1,0 +1,784 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PI Nanotargeting · UC3M & INCIBE</title>
+  <link rel="stylesheet" href="style.css?v=20260218" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <div class="brand">
+        <img class="brand-mark brand-mark--uc3m" src="logos/Logo_UC3M.svg" alt="Logo Universidad Carlos III">
+        <img src="https://www.incibe.es/sites/default/files/2021-08/incibe_1.svg" alt="INCIBE Logo" class="brand-mark" />
+        <img src="https://digital.gob.es/content/experience-fragments/mfdfp/es/header-ministerial/master/_jcr_content/root/header_ministerial/logo.coreimg.svg/1739891509987/mtdfp-icono-cabecera-75px.svg" alt="Ministerio de Transformación Digital" class="brand-mark" />
+      </div>
+      <nav class="main-nav">
+        <a href="#project">Proyecto</a>
+        <a href="#team">Quiénes somos</a>
+        <a href="#survey">Participar</a>
+        <a href="#privacy">Privacidad</a>
+        <a href="#contact">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <h1>Percepción del nanotargeting en publicidad online</h1>
+          <p>
+            ¡Hola! Si has llegado hasta aquí es porque acabas de ver un anuncio de nuestro estudio en LinkedIn, segmentado usando únicamente información disponible públicamente en tu perfil.
+            Desde la Universidad Carlos III de Madrid (UC3M), con financiación del Instituto Nacional de Ciberseguridad (INCIBE), queremos entender cómo perciben las personas la publicidad hiperpersonalizada.
+            Llamamos <em>nanotargeting</em> a dirigir anuncios de forma tan precisa que, en la práctica, pueden acabar siendo para una sola persona, combinando datos disponibles públicamente en el perfil de LinkedIn (por ejemplo, rol, habilidades o localización). Ese anuncio que te trajo hasta aquí forma parte del experimento.
+          </p>
+          <ul class="hero-highlights">
+            <li>Queremos saber si notas que el anuncio estaba dirigido específicamente a ti.</li>
+            <li>Nos interesa cómo te hace sentir este nivel de personalización en términos de privacidad, confianza y riesgo.</li>
+            <li>Con tus respuestas podremos evaluar si la normativa actual protege adecuadamente frente a este tipo de publicidad.</li>
+          </ul>
+          <a class="study-cta" href="#survey">
+            Participar en el estudio
+          </a>
+        </div>
+        <div class="hero-visual">
+          <div class="visual-backdrop"></div>
+          <div class="visual-card">
+            <span class="badge">Este es el anuncio que te ha traído hasta aquí:</span>
+            <img
+              id="creative-image"
+              src="logos/misleading-graph.webp"
+              alt="Ejemplo de anuncio del estudio"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="project" class="info-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Explicación del proyecto</h2>
+          <p>
+            La finalidad de este tratamiento de datos es evaluar hasta qué punto es posible alcanzar a personas concretas (por ejemplo, periodistas) a través de anuncios en LinkedIn usando únicamente información disponible públicamente en sus perfiles, y persuadirlas para realizar una acción específica, en este caso participar en este estudio.
+            En este contexto, el <em>nanotargeting</em> consiste en construir segmentos de audiencia tan finos que permiten dirigir un anuncio, en la práctica, a una única persona usando combinaciones de datos disponibles públicamente en LinkedIn como la localización, el medio en el que trabaja, su especialidad profesional o sus habilidades declaradas.
+            Nuestro objetivo es estudiar si los usuarios detectan esta hiperpersonalización, cómo la valoran en términos de privacidad y riesgo, y qué impacto puede tener sobre su comportamiento y su confianza en la publicidad online y en las plataformas.
+          </p>
+        </div>
+        <div class="info-grid">
+          <article class="info-card">
+            <h3>Contexto</h3>
+            <p>
+              Usted ha hecho clic en un anuncio dirigido específicamente a usted usando una combinación de datos disponibles públicamente en su perfil de LinkedIn (localización, habilidades, educación, etc.). El anuncio contiene su nombre de pila.
+            </p>
+          </article>
+          <article class="info-card">
+            <h3>Su participación</h3>
+            <p>
+              Al llegar a esta web, usted se encuentra en la segunda fase del experimento. Le invitamos a completar voluntariamente un formulario para ayudarnos a evaluar la efectividad y percepción de esta técnica.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="team" class="info-section" style="background: rgba(15, 98, 254, 0.05);">
+      <div class="container">
+        <div class="section-header">
+          <h2>Quiénes somos</h2>
+          <p>
+            Este proyecto de investigación está dirigido por personal docente e investigador (PDI) de la Universidad Carlos III de Madrid. El investigador principal del proyecto es Rubén Cuevas Rumín.
+          </p>
+        </div>
+        <div class="info-grid">
+          <article class="info-card">
+            <h3>Responsable</h3>
+            <p>
+              El responsable del tratamiento de los datos es la <span class="highlight">Universidad Carlos III de Madrid (UC3M)</span>. Para la primera fase (alcanzarle con el anuncio en LinkedIn usando únicamente datos disponibles públicamente en su perfil), la base jurídica es el cumplimiento de una misión realizada en interés público vinculada a la actividad investigadora de la universidad.
+            </p>
+          </article>
+          <article class="info-card">
+            <h3>Consentimiento</h3>
+            <p>
+              La base jurídica para esta segunda fase (rellenar el formulario en esta página) es su <span class="highlight">consentimiento expreso</span>, que puede retirar en cualquier momento. Si no participa, sus datos serán seudonimizados igualmente conforme a los plazos indicados en la política de privacidad.
+            </p>
+          </article>
+          <article class="info-card">
+            <h3>Destinatarios</h3>
+            <p>
+              Los datos se custodiarán en la UC3M y solo podrán compartirse, en su caso, con <span class="highlight">comités de revistas científicas</span> que los requieran para procesos de revisión de las publicaciones derivadas del estudio, siempre bajo acuerdos adecuados de confidencialidad.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="survey" class="info-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Participación en el estudio</h2>
+          <p>
+            Para continuar, debe tomar una decisión sobre el tratamiento de sus datos en el marco de este estudio. Si decide participar, nos autoriza a tratar los datos de su perfil de LinkedIn junto con sus respuestas al cuestionario. Si prefiere no participar, puede ejercer su derecho de oposición, lo que implicará la anonimización total de los datos recogidos de su perfil en los plazos indicados.
+          </p>
+        </div>
+
+        <div class="form-card" id="consent-block">
+          <fieldset>
+            <legend>Opción 1: Participar en el estudio</legend>
+            <p>Implica darnos su consentimiento expreso para tratar los datos de su perfil de LinkedIn junto con los que nos proporcione en el siguiente formulario.</p>
+            <label style="margin-top: 16px; display: flex; align-items: center; gap: 12px;">
+              <input type="checkbox" id="consent-checkbox" />
+              <span>He leído la <a href="#privacy" style="text-decoration: underline; color: var(--primary);">política de privacidad</a> y doy mi consentimiento expreso para el tratamiento de mis datos.</span>
+            </label>
+            <button type="button" id="show-survey-btn" disabled style="justify-self: start; margin-top: 8px;">Aceptar y Participar</button>
+          </fieldset>
+          
+          <hr style="border: none; border-top: 1px solid #eee; margin: 16px 0;">
+
+          <fieldset>
+            <legend>Opción 2: Oponerse al tratamiento</legend>
+            <p>Si no desea participar, puede ejercer su derecho de oposición. Esto supondrá la anonimización total de todos los datos que hayamos podido recoger de su perfil en un plazo inferior a 7 días.</p>
+            <button type="button" id="show-opposition-btn" style="justify-self: start; margin-top: 8px; background: var(--muted);">No participar y solicitar supresión de datos</button>
+          </fieldset>
+        </div>
+
+        <div class="form-card" id="survey-form-block" style="display: none;">
+          <h3>Formulario de participación</h3>
+          <p>Gracias por aceptar. Por favor, complete el siguiente formulario.</p>
+          <form action="/submit" method="post">
+            <input type="hidden" name="campaign_id" id="campaign-id-input" />
+            <fieldset>
+              <legend>Datos de contacto</legend>
+              <label>
+                <span>Nombre y apellidos*</span>
+                <input type="text" name="nombre" required />
+              </label>
+              <label>
+                <span>Email de contacto (para recibir detalles del experimento)*</span>
+                <input type="email" name="email" required />
+              </label>
+              <label>
+                <span>Forma de contacto en LinkedIn*</span>
+                <select name="linkedin_contact_method" id="linkedin-contact-method" required>
+                  <option value="">Seleccione una opción</option>
+                  <option value="perfil">Proporcionaré mi perfil de LinkedIn</option>
+                  <option value="mensaje">Prefiero escribirles desde mi perfil de LinkedIn</option>
+                </select>
+              </label>
+              <label id="linkedin-url-field" style="display: none;">
+                <span>URL de su perfil de LinkedIn*</span>
+                <input type="url" name="linkedin" id="linkedin-input" />
+              </label>
+              <div id="linkedin-message-field" style="display: none; padding: 12px; background: #f0f7ff; border-radius: 8px; margin-top: 8px;">
+                <p style="margin: 0; font-size: 0.95em;">Por favor, envíenos un mensaje desde su perfil de LinkedIn a través de nuestra página: <a href="https://www.linkedin.com/company/nanotargeting-project-uc3m" target="_blank" style="text-decoration: underline; color: var(--primary); font-weight: 600;">Nanotargeting Project UC3M</a></p>
+              </div>
+            </fieldset>
+
+            <fieldset>
+              <legend>Percepción del anuncio</legend>
+              <label style="display: block; margin-bottom: 24px;">
+                <span style="display: block; margin-bottom: 12px;">Valore la curiosidad que le generó al verlo (0 = nada de curiosidad, 5 = muchísima curiosidad)*</span>
+                <div style="display: flex; gap: 20px; align-items: center;">
+                  <div style="display: flex; gap: 12px;">
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="valoracion_curiosidad" value="0" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">0</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="valoracion_curiosidad" value="1" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">1</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="valoracion_curiosidad" value="2" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">2</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="valoracion_curiosidad" value="3" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">3</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="valoracion_curiosidad" value="4" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">4</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="valoracion_curiosidad" value="5" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">5</span>
+                    </label>
+                  </div>
+                </div>
+              </label>
+
+              <label style="display: block; margin-bottom: 24px;">
+                <span style="display: block; margin-bottom: 12px;">Valore la desconfianza que le produjo (0 = ninguna desconfianza, 5 = muchísima desconfianza)*</span>
+                <div style="display: flex; gap: 20px; align-items: center;">
+                  <div style="display: flex; gap: 12px;">
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="valoracion_desconfianza" value="0" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">0</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="valoracion_desconfianza" value="1" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">1</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="valoracion_desconfianza" value="2" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">2</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="valoracion_desconfianza" value="3" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">3</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="valoracion_desconfianza" value="4" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">4</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="valoracion_desconfianza" value="5" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">5</span>
+                    </label>
+                  </div>
+                </div>
+              </label>
+
+              <label style="display: block; margin-bottom: 24px;">
+                <span style="display: block; margin-bottom: 12px;">En conjunto, ¿cómo valoraría esta experiencia de ver el anuncio? (1 muy negativa - 5 muy positiva)*</span>
+                <div style="display: flex; gap: 20px; align-items: center;">
+                  <div style="display: flex; gap: 12px;">
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="valoracion_valencia_experiencia" value="1" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">1</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="valoracion_valencia_experiencia" value="2" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">2</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="valoracion_valencia_experiencia" value="3" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">3</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="valoracion_valencia_experiencia" value="4" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">4</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="valoracion_valencia_experiencia" value="5" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">5</span>
+                    </label>
+                  </div>
+                </div>
+              </label>
+            </fieldset>
+
+            <fieldset>
+              <legend>Conocimiento y percepción de la práctica</legend>
+              <label>
+                <span>¿Notó si el anuncio incluía su nombre de pila?*</span>
+                <select name="incluia_nombre" required>
+                  <option value="">Seleccione una opción</option>
+                  <option value="si">Sí</option>
+                  <option value="no">No</option>
+                  <option value="no_recuerdo">No lo recuerdo</option>
+                </select>
+              </label>
+              <label>
+                <span>¿Suele hacer clic en anuncios personalizados en LinkedIn?*</span>
+                <select name="suele_clic_anuncios" required>
+                  <option value="">Seleccione una opción</option>
+                  <option value="si">Sí</option>
+                  <option value="no">No</option>
+                </select>
+              </label>
+              <label>
+                <span>¿Era consciente de que se pueden dirigir anuncios a una persona concreta en plataformas como LinkedIn?*</span>
+                <select name="conocimiento_previo" required>
+                  <option value="">Seleccione una opción</option>
+                  <option value="si">Sí, era consciente</option>
+                  <option value="no">No, no lo sabía</option>
+                  <option value="dudaba">No estaba seguro/a</option>
+                </select>
+              </label>
+              <label style="display: block; margin-bottom: 24px;">
+                <span style="display: block; margin-bottom: 12px;">Evalúe del 1 (riesgo mínimo) al 5 (riesgo máximo) el nivel de riesgo que, en su opinión, suponen estas prácticas de dirigir anuncios a personas específicas*</span>
+                <div style="display: flex; gap: 20px; align-items: center;">
+                  <div style="display: flex; gap: 12px;">
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="valoracion_riesgo" value="1" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">1</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="valoracion_riesgo" value="2" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">2</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="valoracion_riesgo" value="3" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">3</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="valoracion_riesgo" value="4" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">4</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="valoracion_riesgo" value="5" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">5</span>
+                    </label>
+                  </div>
+                </div>
+              </label>
+            </fieldset>
+
+            <fieldset>
+              <legend>Impacto y privacidad</legend>
+
+              <label style="display: block; margin-bottom: 16px;">
+                <span style="display: block; margin-bottom: 8px;">Valore hasta qué punto sintió que estaba siendo específicamente observado/a o vigilado/a al ver este anuncio (1 = nada, 5 = muchísimo)*</span>
+                <div style="display: flex; gap: 20px; align-items: center;">
+                  <div style="display: flex; gap: 12px;">
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="sensacion_vigilancia" value="1" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">1</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="sensacion_vigilancia" value="2" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">2</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="sensacion_vigilancia" value="3" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">3</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="sensacion_vigilancia" value="4" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">4</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="sensacion_vigilancia" value="5" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">5</span>
+                    </label>
+                  </div>
+                </div>
+              </label>
+
+              <label style="display: block; margin-bottom: 16px;">
+                <span style="display: block; margin-bottom: 8px;">Valore hasta qué punto sintió que este anuncio invadía su privacidad (1 = nada, 5 = muchísimo)*</span>
+                <div style="display: flex; gap: 20px; align-items: center;">
+                  <div style="display: flex; gap: 12px;">
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="valoracion_invasion_privacidad" value="1" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">1</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="valoracion_invasion_privacidad" value="2" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">2</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="valoracion_invasion_privacidad" value="3" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">3</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="valoracion_invasion_privacidad" value="4" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">4</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="valoracion_invasion_privacidad" value="5" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">5</span>
+                    </label>
+                  </div>
+                </div>
+              </label>
+
+              <label style="display: block; margin-bottom: 16px;">
+                <span style="display: block; margin-bottom: 8px;">Valore hasta qué punto siente que tiene control sobre cómo se usan sus datos en plataformas como LinkedIn (1 = nada de control, 5 = control total)*</span>
+                <div style="display: flex; gap: 20px; align-items: center;">
+                  <div style="display: flex; gap: 12px;">
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="valoracion_control_datos" value="1" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">1</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="valoracion_control_datos" value="2" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">2</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="valoracion_control_datos" value="3" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">3</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="valoracion_control_datos" value="4" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">4</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="valoracion_control_datos" value="5" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">5</span>
+                    </label>
+                  </div>
+                </div>
+              </label>
+
+              <label style="display: block; margin-bottom: 16px;">
+                <span style="display: block; margin-bottom: 8px;">Valore hasta qué punto confía en que LinkedIn gestiona sus datos personales de forma responsable (1 = nada, 5 = totalmente)*</span>
+                <div style="display: flex; gap: 20px; align-items: center;">
+                  <div style="display: flex; gap: 12px;">
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="confianza_linkedin" value="1" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">1</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="confianza_linkedin" value="2" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">2</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="confianza_linkedin" value="3" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">3</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="confianza_linkedin" value="4" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">4</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="confianza_linkedin" value="5" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">5</span>
+                    </label>
+                  </div>
+                </div>
+              </label>
+
+              <label style="display: block; margin-bottom: 16px;">
+                <span style="display: block; margin-bottom: 8px;">Valore hasta qué punto le parece aceptable que se usen sus datos para mostrarle anuncios basados en sus intereses profesionales (sin incluir su nombre) (1 = nada aceptable, 5 = totalmente aceptable)*</span>
+                <div style="display: flex; gap: 20px; align-items: center;">
+                  <div style="display: flex; gap: 12px;">
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="aceptacion_personalizacion_generica" value="1" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">1</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="aceptacion_personalizacion_generica" value="2" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">2</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="aceptacion_personalizacion_generica" value="3" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">3</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="aceptacion_personalizacion_generica" value="4" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">4</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="aceptacion_personalizacion_generica" value="5" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">5</span>
+                    </label>
+                  </div>
+                </div>
+              </label>
+
+              <label style="display: block; margin-bottom: 16px;">
+                <span style="display: block; margin-bottom: 8px;">Valore hasta qué punto le parece aceptable que se usen sus datos para mostrarle anuncios que incluyen su nombre o detalles muy específicos sobre usted (1 = nada aceptable, 5 = totalmente aceptable)*</span>
+                <div style="display: flex; gap: 20px; align-items: center;">
+                  <div style="display: flex; gap: 12px;">
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="aceptacion_hiperpersonalizacion" value="1" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">1</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="aceptacion_hiperpersonalizacion" value="2" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">2</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="aceptacion_hiperpersonalizacion" value="3" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">3</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="aceptacion_hiperpersonalizacion" value="4" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">4</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="aceptacion_hiperpersonalizacion" value="5" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">5</span>
+                    </label>
+                  </div>
+                </div>
+              </label>
+
+              <label style="display: block; margin-bottom: 16px;">
+                <span style="display: block; margin-bottom: 8px;">Valore hasta qué punto considera que los anuncios que incluyen su nombre suponen un riesgo mayor para su privacidad que otros anuncios personalizados (1 = ningún riesgo adicional, 5 = muchísimo mayor riesgo)*</span>
+                <div style="display: flex; gap: 20px; align-items: center;">
+                  <div style="display: flex; gap: 12px;">
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="riesgo_privacidad_nombre" value="1" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">1</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="riesgo_privacidad_nombre" value="2" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">2</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="riesgo_privacidad_nombre" value="3" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">3</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="riesgo_privacidad_nombre" value="4" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">4</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="riesgo_privacidad_nombre" value="5" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">5</span>
+                    </label>
+                  </div>
+                </div>
+              </label>
+
+              <label style="display: block; margin-bottom: 16px;">
+                <span style="display: block; margin-bottom: 8px;">Valore hasta qué punto es probable que, después de esta experiencia, evite hacer clic en anuncios similares en el futuro (1 = nada probable, 5 = muy probable)*</span>
+                <div style="display: flex; gap: 20px; align-items: center;">
+                  <div style="display: flex; gap: 12px;">
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="probabilidad_evitar_anuncios_similares" value="1" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">1</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="probabilidad_evitar_anuncios_similares" value="2" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">2</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="probabilidad_evitar_anuncios_similares" value="3" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">3</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="probabilidad_evitar_anuncios_similares" value="4" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">4</span>
+                    </label>
+                    <label style="display: flex; flex-direction: column; align-items: center; gap: 4px; cursor: pointer;">
+                      <input type="radio" name="probabilidad_evitar_anuncios_similares" value="5" required style="width: 20px; height: 20px; cursor: pointer;" />
+                      <span style="font-size: 0.85em; color: #666;">5</span>
+                    </label>
+                  </div>
+                </div>
+              </label>
+            </fieldset>
+
+            <fieldset>
+              <legend>Comentarios y reflexiones</legend>
+              <label>
+                <span>¿Qué le motivó a hacer clic en el anuncio?*</span>
+                <textarea name="motivacion_clic" rows="3" required></textarea>
+              </label>
+              <label>
+                <span>Ahora que conoce la posibilidad de dirigir anuncios a personas concretas, ¿cómo valora esta circunstancia?*</span>
+                <textarea name="valoracion_conocimiento" rows="3" required></textarea>
+              </label>
+              <label>
+                <span>Después de esta experiencia, ¿ha cambiado en algo su opinión sobre el uso de datos personales en publicidad online? Si es así, ¿cómo?*</span>
+                <textarea name="cambio_opinion_publicidad_datos" rows="3" required></textarea>
+              </label>
+              <label>
+                <span>¿Algún comentario adicional sobre su percepción del anuncio o este tipo de prácticas?*</span>
+                <textarea name="comentarios_adicionales" rows="3" required></textarea>
+              </label>
+            </fieldset>
+
+            <fieldset>
+              <legend>Contexto de uso y formación</legend>
+              <label>
+                <span>En los últimos 2 años, ¿ha recibido formación o información específica sobre protección de datos o privacidad digital?*</span>
+                <select name="formacion_privacidad" required>
+                  <option value="">Seleccione una opción</option>
+                  <option value="si">Sí</option>
+                  <option value="no">No</option>
+                  <option value="no_recuerdo">No lo recuerdo</option>
+                </select>
+              </label>
+              <label>
+                <span>¿Con qué frecuencia utiliza LinkedIn?*</span>
+                <select name="frecuencia_uso_linkedin" required>
+                  <option value="">Seleccione una opción</option>
+                  <option value="diario">A diario</option>
+                  <option value="varias_veces_semana">Varias veces por semana</option>
+                  <option value="varias_veces_mes">Varias veces al mes</option>
+                  <option value="casi_nunca">Casi nunca</option>
+                </select>
+              </label>
+            </fieldset>
+
+            <button type="submit">Enviar respuesta</button>
+          </form>
+        </div>
+
+        <div class="form-card" id="opposition-form-block" style="display: none;">
+          <h3>Solicitud de Oposición</h3>
+          <p>Sus datos serán anonimizados totalmente en un plazo inferior a 7 días. Para identificarle en nuestro sistema, por favor indíquenos su email o perfil de LinkedIn.</p>
+          <form action="/oppose" method="post">
+            <fieldset>
+              <legend>Datos de identificación</legend>
+              <label>
+                <span>Email (el asociado a su cuenta de LinkedIn)*</span>
+                <input type="email" name="email" required />
+              </label>
+              <label>
+                <span>Perfil de LinkedIn (Opcional, para asegurar la identificación)</span>
+                <input type="url" name="linkedin_url" />
+              </label>
+            </fieldset>
+            <button type="submit" style="background: var(--primary-dark);">Confirmar Oposición</button>
+          </form>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="privacy" class="info-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Política de privacidad</h2>
+          <p>
+            A continuación se detalla la política de privacidad aplicable a este estudio. Para cualquier consulta al respecto puede contactar con el <a href="#contact" style="color: var(--primary); text-decoration: underline;">responsable del proyecto</a>.
+          </p>
+        </div>
+        <div class="privacy-card">
+          <h3>Resumen del tratamiento de datos</h3>
+          <ul>
+            <li><span class="highlight">Responsable:</span> Universidad Carlos III de Madrid (UC3M). Responsable del tratamiento de los datos personales recogidos en el marco de este proyecto de investigación.</li>
+            <li><span class="highlight">Finalidad:</span> Analizar la percepción de los usuarios ante anuncios hiperpersonalizados (*nanotargeting*) en plataformas como LinkedIn, así como su impacto en la privacidad, la confianza y el comportamiento de los usuarios.</li>
+            <li><span class="highlight">Base Legal (Fase 1 - Anuncio):</span> Misión realizada en interés público relacionada con la actividad investigadora de la UC3M (art. 6.1.e RGPD).</li>
+            <li><span class="highlight">Base Legal (Fase 2 - Formulario):</span> Su consentimiento expreso para el tratamiento de los datos que proporciona a través de este formulario (art. 6.1.a RGPD), que puede retirar en cualquier momento.</li>
+            <li><span class="highlight">Datos Recogidos (Fase 1):</span> URL de LinkedIn, nombre, género, rango de edad (si es público), país, rol o especialidad periodística, medio en el que trabaja, localización, habilidades e instituciones educativas y laborales, obtenidos de su perfil público de LinkedIn.</li>
+            <li><span class="highlight">Datos Recogidos (Fase 2):</span> Los solicitados en el formulario (por ejemplo, email de contacto) y sus respuestas a las preguntas de percepción, valoración y comentarios abiertos sobre el anuncio y sobre la práctica del nanotargeting.</li>
+            <li><span class="highlight">Plazo de conservación (Si NO participa):</span> Si hizo clic en el anuncio pero no rellenó el formulario, sus datos serán seudonimizados en un plazo máximo de 1 semana. Si no hizo clic en el anuncio, sus datos ya se habrán seudonimizado.</li>
+            <li><span class="highlight">Plazo de conservación (Si SÍ participa):</span> Si rellena el formulario, sus datos se seudonimizarán 6 meses después de la última publicación científica basada en este estudio.</li>
+            <li><span class="highlight">Derecho de oposición y retirada del consentimiento:</span> Puede oponerse en cualquier momento al tratamiento de sus datos derivados del nanotargeting y retirar su consentimiento para el tratamiento de los datos del formulario. La oposición supondrá la anonimización total de sus datos en un plazo inferior a 7 días desde la recepción de la solicitud.</li>
+            <li><span class="highlight">Destinatarios:</span> El acceso a los datos se limita al equipo investigador de la UC3M responsable del proyecto. Los datos podrán comunicarse, en su caso, a comités de revistas científicas que los requieran para procesos de revisión de publicaciones derivadas del estudio, bajo acuerdos adecuados de confidencialidad.</li>
+            <li><span class="highlight">Transferencias internacionales:</span> No se prevén transferencias internacionales de datos fuera del Espacio Económico Europeo, salvo las derivadas del uso de servicios de almacenamiento o colaboración que, en todo caso, cumplirán con las garantías exigidas por el RGPD.</li>
+            <li><span class="highlight">Ejercicio de derechos:</span> Puede ejercer sus derechos de acceso, rectificación, supresión, limitación del tratamiento, oposición y portabilidad escribiendo al investigador principal (<a href="mailto:rcuevas@it.uc3m.es">rcuevas@it.uc3m.es</a>) indicando “Proyecto Nanotargeting” en el asunto, o al delegado de protección de datos de la UC3M. También puede presentar una reclamación ante la Agencia Española de Protección de Datos (AEPD).</li>
+            <li><span class="highlight">Decisiones automatizadas y elaboración de perfiles:</span> En la fase de anuncio se realiza una segmentación de audiencia en LinkedIn basada en combinaciones de datos públicos de su perfil para mostrar un anuncio dirigido específicamente a usted. No se toman decisiones que produzcan efectos jurídicos sobre usted ni que le afecten significativamente de forma similar más allá de la exposición al anuncio y a este cuestionario.</li>
+            <li><span class="highlight">Medidas de seguridad:</span> Los datos se almacenan en sistemas de la UC3M y en copias de seguridad en Google Workspace (UC3M) con autenticación de doble factor (2FA), y están protegidos mediante firewall corporativo, redes privadas (VPN) y control de acceso al servidor (SSH), aplicando las políticas de seguridad de la universidad.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <p class="footer-heading">Contacto (Investigador)</p>
+          <ul class="footer-list">
+            <li>Rubén Cuevas Rumín</li>
+            <li>Email: rcuevas@it.uc3m.es</li>
+            <li>Universidad Carlos III de Madrid (UC3M)</li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer-heading">Entidades</p>
+          <ul class="footer-list">
+            <li>Universidad Carlos III de Madrid</li>
+            <li>Instituto Nacional de Ciberseguridad (INCIBE)</li>
+            <li>Ministerio de Transformación Digital</li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer-heading">Redes y enlaces</p>
+          <ul class="footer-list">
+            <li><a href="https://www.uc3m.es/">Web de la UC3M</a></li>
+            <li><a href="https://www.incibe.es/">Web de INCIBE</a></li>
+            <li><a href="#privacy">Política de Privacidad</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© UC3M & INCIBE</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const consentCheck = document.getElementById('consent-checkbox');
+      const surveyBtn = document.getElementById('show-survey-btn');
+      const opposeBtn = document.getElementById('show-opposition-btn');
+
+      const consentBlock = document.getElementById('consent-block');
+      const surveyBlock = document.getElementById('survey-form-block');
+      const opposeBlock = document.getElementById('opposition-form-block');
+
+      // Habilitar el botón de participar solo si el checkbox está marcado
+      if (consentCheck) {
+        consentCheck.addEventListener('change', () => {
+          surveyBtn.disabled = !consentCheck.checked;
+        });
+      }
+
+      // Mostrar formulario de encuesta al hacer clic en 'Aceptar'
+      if (surveyBtn) {
+        surveyBtn.addEventListener('click', () => {
+          consentBlock.style.display = 'none';
+          surveyBlock.style.display = 'grid';
+          surveyBlock.scrollIntoView({ behavior: 'smooth' });
+        });
+      }
+
+      // Mostrar formulario de oposición al hacer clic en 'No participar'
+      if (opposeBtn) {
+        opposeBtn.addEventListener('click', () => {
+          consentBlock.style.display = 'none';
+          opposeBlock.style.display = 'grid';
+          opposeBlock.scrollIntoView({ behavior: 'smooth' });
+        });
+      }
+
+      // Manejar la selección del método de contacto de LinkedIn
+      const linkedinContactMethod = document.getElementById('linkedin-contact-method');
+      const linkedinUrlField = document.getElementById('linkedin-url-field');
+      const linkedinMessageField = document.getElementById('linkedin-message-field');
+      const linkedinInput = document.getElementById('linkedin-input');
+
+      if (linkedinContactMethod) {
+        linkedinContactMethod.addEventListener('change', () => {
+          const selectedValue = linkedinContactMethod.value;
+          
+          if (selectedValue === 'perfil') {
+            linkedinUrlField.style.display = 'block';
+            linkedinMessageField.style.display = 'none';
+            linkedinInput.required = true;
+          } else if (selectedValue === 'mensaje') {
+            linkedinUrlField.style.display = 'none';
+            linkedinMessageField.style.display = 'block';
+            linkedinInput.required = false;
+            linkedinInput.value = '';
+          } else {
+            linkedinUrlField.style.display = 'none';
+            linkedinMessageField.style.display = 'none';
+            linkedinInput.required = false;
+          }
+        });
+      }
+
+      // Leer CAMPAIGN_ID de la URL (si existe)
+      const params = new URLSearchParams(window.location.search);
+      const campaignId = params.get('campaign_id');
+
+      // Rellenar campaign_id oculto para guardarlo en la BD
+      const campaignIdInput = document.getElementById('campaign-id-input');
+      if (campaignIdInput && campaignId) {
+        campaignIdInput.value = campaignId;
+      }
+
+      // Cambiar la creatividad mostrada en función de CAMPAIGN_ID
+      const creativeImg = document.getElementById('creative-image');
+      if (creativeImg && campaignId) {
+        const defaultSrc = creativeImg.getAttribute('src');
+        const encodedId = encodeURIComponent(campaignId);
+        const newSrc = `logos/creatives/${encodedId}.jpeg`;
+
+        // Si la imagen específica no existe, volver a la imagen por defecto
+        creativeImg.addEventListener('error', function handleError() {
+          creativeImg.removeEventListener('error', handleError);
+          creativeImg.src = defaultSrc;
+        });
+
+        creativeImg.src = newSrc;
+      }
+    });
+  </script>
+
+</body>
+</html>

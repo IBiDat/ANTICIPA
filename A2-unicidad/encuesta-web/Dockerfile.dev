@@ -1,0 +1,20 @@
+FROM node:20
+
+# Set working directory
+WORKDIR /usr/src/app
+
+# Copy package manifests and install development dependencies
+COPY package*.json ./
+RUN npm install --only=development
+
+# Install nodemon globally for auto-reloading
+RUN npm install -g nodemon
+
+# Copy application source
+COPY . .
+
+# Expose the application's port
+EXPOSE 4000
+
+# Start the server in development mode
+CMD ["nodemon", "server.js"]

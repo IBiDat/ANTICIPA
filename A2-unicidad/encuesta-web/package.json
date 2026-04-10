@@ -1,0 +1,22 @@
+{
+  "name": "encuesta-app",
+  "version": "1.0.0",
+  "description": "Aplicación de encuesta desplegada con Docker",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "2.2.0",
+    "express": "5.1.0",
+    "pg": "8.16.3",
+    "zod": "3.23.8"
+  },
+  "devDependencies": {
+    "nodemon": "3.1.10"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

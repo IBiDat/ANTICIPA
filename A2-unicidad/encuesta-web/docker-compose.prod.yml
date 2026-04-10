@@ -1,0 +1,47 @@
+services:
+  db:
+    image: postgres:16
+    container_name: encuesta_db_prod
+    restart: always
+    environment:
+      POSTGRES_USER: encuesta
+      POSTGRES_PASSWORD: DELETED_FOR_SECURITY_REASONS
+      POSTGRES_DB: encuesta_db
+    volumes:
+      - db_data_prod:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - "5432:5432"
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
+    container_name: encuesta_app_prod
+    restart: always
+    ports:
+      - "4000:4000"
+    depends_on:
+      - db
+    environment:
+      DB_USER: encuesta
+      DB_PASSWORD: 
+      DB_NAME: encuesta_db
+      DB_HOST: db
+      DB_PORT: 5432
+
+  nginx:
+    image: nginx:alpine
+    container_name: nginx_prod
+    restart: always
+    ports:
+      - "80:80"
+    depends_on:
+      - app
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+volumes:
+  db_data_prod:

@@ -1,0 +1,39 @@
+version: "3.9"
+
+services:
+  db:
+    image: postgres:16
+    container_name: encuesta_db_dev
+    restart: always
+    environment:
+      POSTGRES_USER: encuesta
+      POSTGRES_PASSWORD: DELETED_FOR_SECURITY_REASONS
+      POSTGRES_DB: encuesta_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - db_data_dev:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    container_name: encuesta_app_dev
+    restart: always
+    ports:
+      - "4000:4000"
+    volumes:
+      - .:/usr/src/app
+      - /usr/src/app/node_modules
+    depends_on:
+      - db
+    environment:
+      DB_USER: encuesta
+      DB_PASSWORD: 
+      DB_NAME: encuesta_db
+      DB_HOST: db
+      DB_PORT: 5432
+
+volumes:
+  db_data_dev:
