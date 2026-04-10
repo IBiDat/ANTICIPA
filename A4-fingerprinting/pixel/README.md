@@ -65,3 +65,7 @@ Este script es **parametrizable** y no incluye valores de producción. La priori
 ## Troubleshooting
 
 - **No conecta al WS**: verifica `wsHost`/`wsPort`, el esquema (`wss://` en HTTPS), y CORS/WS en el backend o reverse proxy.
+
+---
+
+Proyecto ANTICIPA (UC3M-IBIDAT) | Financiado por la Unión Europea – NextGenerationEU a través de INCIBE.
