@@ -1,0 +1,73 @@
+.container {
+  width: 385px;
+  height: 418px;
+  background-color: #3a2f3f;
+  padding: 20px;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid rgba(84, 146, 173, 0.819);
+  border-radius: 4px; /* Agregar esquinas redondeadas */
+  outline: none; /* Eliminar el contorno al hacer clic en el contenedor */
+  box-shadow: none; /* Eliminar cualquier sombra alrededor del contenedor */
+}
+
+.container .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 0;
+}
+
+.title {
+  font-size: 24px;
+  color: rgba(84, 146, 173, 0.819);
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.version {
+  font-size: 10px;
+  color: #FFF;
+  text-align: center;
+  margin: 0;
+}
+
+.divider {
+  width: 100%;
+  border: 1px solid #FFF;
+  margin-top: 5px; /* Mover la línea blanca debajo de la versión */
+  margin-bottom: 5px; /* Agregar un espacio entre la versión y la línea */
+}
+
+.console-window {
+  background-color: #000;
+  color: #0F0;
+  padding: 0;
+  margin: 0;
+  font-family: monospace;
+  white-space: pre;
+  width: calc(100% - 8px);
+  height: calc(100% - 65px);
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.console-window p {
+  margin: 0;
+  padding: 0;
+  text-indent: 0;
+  margin-left: 5px;
+  font-size: 11px;
+}
