@@ -13,12 +13,12 @@ Se implementan metodologías para medir el grado de protección de la identidad 
   - `docs/theory_part/`
 
 ## Origen del material integrado
-Este módulo se ha integrado desde `E19/probabilistic_k_anonymity_extension_material` con el siguiente mapeo:
+Este módulo se ha integrado desde `probabilistic_k_anonymity_extension_material` con el siguiente mapeo:
 
-- `E19/probabilistic_k_anonymity_extension_material/src` -> `A1-anonimidad/src`
-- `E19/probabilistic_k_anonymity_extension_material/data` -> `A1-anonimidad/datasets`
-- `E19/probabilistic_k_anonymity_extension_material/analysis` -> `A1-anonimidad/docs/analysis`
-- `E19/probabilistic_k_anonymity_extension_material/theory_part` -> `A1-anonimidad/docs/theory_part`
+- `probabilistic_k_anonymity_extension_material/src` -> `A1-anonimidad/src`
+- `probabilistic_k_anonymity_extension_material/data` -> `A1-anonimidad/datasets`
+- `probabilistic_k_anonymity_extension_material/analysis` -> `A1-anonimidad/docs/analysis`
+- `probabilistic_k_anonymity_extension_material/theory_part` -> `A1-anonimidad/docs/theory_part`
 
 ## Reproducibilidad
 Las dependencias y comandos de ejecucion dependen de los scripts concretos incluidos en `src/`. Como regla general:
