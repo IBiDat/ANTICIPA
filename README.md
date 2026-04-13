@@ -32,4 +32,3 @@ ANTICIPA/
 ├── A2-unicidad/         # Metodología de ataques y análisis de unicidad
 ├── A3-sobreperfilado/   # Plugin y herramientas de análisis de perfiles
 ├── A4-fingerprinting/   # Píxel publicitario y add-on de detección
-└── docs/                # Reportes técnicos generales del proyecto
