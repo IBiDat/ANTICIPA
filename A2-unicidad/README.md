@@ -10,7 +10,6 @@ Esta solución se centra en la unicidad: la propiedad que hace que un usuario se
   - `scripts/scraper/`: Código del scraper de campañas y perfiles.
 - `encuesta-web/`: Aplicación web de encuesta (Node.js, Express, PostgreSQL).
 - `campaigns-anonymized/`: Datos de campañas anonimizados para analisis.
-- `methodology/`: Documentación del marco teórico de explotación de unicidad.
 
 ## Origen del material integrado
 Este módulo se ha integrado a partir de:
